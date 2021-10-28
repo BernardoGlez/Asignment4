@@ -32,9 +32,9 @@ public class SeatingChart {
         int count = 0;
         seats = new Student[rows][cols];
 
-        for (int i = 0; i<cols; i++) {
-            for(int j= 0; j<rows; j++) {
-                seats[i][j] = count < studentList.size()
+        for (int a = 0; a<cols; a++) {
+            for(int b= 0; b<rows; b++) {
+                seats[a][b] = count < studentList.size()
                       ? studentList.get(count)
                       : null;
                 count ++;
@@ -59,13 +59,13 @@ public class SeatingChart {
     public int removeAbsentStudents(int allowedAbsences) {
         // TODO: your code goes here.
         int count = 0
-                for (int i = 0; i <seats.lenght; i++) {
-                    for (int j = 0; j < seats[i].lenght; j++ )
-                        if (seats[i][j]) = null &&
-                            seats[i][j].getAbsenceCount()>allowedAbsences)
+                for (int a = 0; a <seats.lenght; a++) {
+                    for (int b = 0; b < seats[b].lenght; b++ )
+                        if (seats[a][b]) = null &&
+                            seats[a][b].getAbsenceCount()>allowedAbsences)
 
                     count++;
-                    seats[i][j] = null;
+                    seats[a][b] = null;
 
         }
         return 0;
