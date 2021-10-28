@@ -59,8 +59,8 @@ public class SeatingChart {
     public int removeAbsentStudents(int allowedAbsences) {
         // TODO: your code goes here.
         int count = 0
-                for (int a = 0; a <seats.lenght; a++) {
-                    for (int b = 0; b < seats[b].lenght; b++ )
+                for (int a = 0; a <seats.size; a++) {
+                    for (int b = 0; b < seats[b].size; b++ )
                         if (seats[a][b]) = null &&
                             seats[a][b].getAbsenceCount()>allowedAbsences)
 
